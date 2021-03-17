@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+
+  <!-- ICONS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/df3232.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/df1616.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Up</button>
+  <header>
+    <div class="heading">
+      <div class="logo-hf">
+        <a href="" target="_blank"><img src="img/qq.png" alt="logo"></a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="quote">
+     
+    </div>
+    <div class="container">
+      <div class="container-inner">
+        <div id="participants">
+		
+          <!-- participants data -->
+        </div>
+
+        <img id="iconPR" class="icon" src="img/images/df.png" alt="PR icon">
+        <img id="iconBranch" class="icon" src="img/images/df.png" alt="Branch icon">
+        <img id="iconCommit" class="icon" src="img/images/df.png" alt="Commit icon">
+      </div>
+	  </div>
+	  
+	  
+	   <div class="container">
+      <div class="container-next">
+	  
+	  <div class="quote">
+      "Finance Calculator's"
+    </div>
+	 
+	   <div id="projects">
+         
+        </div>
+        
+        <img id="iconBranch" class="icon" src="img/images/df.png" alt="Branch icon">
+        <img id="iconCommit" class="icon" src="img/images/df.png" alt="Commit icon">
+	  </div>
+	   </div>
+     </main>
+
+
+  <footer>
+    <div class="logo-alphabyte">
+      <img src="img/qq.png" alt="logo">
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/participants.js"></script>
+   <script src="js/projects.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/pro.js"></script>
+  
+  
+  <!-------------------------------------Page up Button--------------------------------------------------------->
+  <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+  
+</body>
+</html>
